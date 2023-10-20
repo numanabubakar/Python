@@ -1,12 +1,18 @@
-name:str = "Numan Abubakar"
-father_name :str = "Muhammad Abubakar"
-age:int = 21
+name: str = "Numan Abubakar"
+father_name: str = "Muhammad Abubakar"
+age: int = 21
 
 
-card:str = f"""
+# card:str = f"""
+# My Information
+# Name : {name}
+# Father Name : {father_name}
+# age : {age}
+# """
+card: str = """
 My Information
-Name : {name}
-Father Name : {father_name}
-age : {age}
-"""
+Name : {}
+Father Name : {}
+age : {}
+""".format(name, father_name, age)
 print(card)
