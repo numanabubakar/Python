@@ -20,7 +20,7 @@ age : {}
 
 message: str = f""" Hello {name}, Hope you are doing best! """
 # print(message)
-name_lstrip = "                  numan abubakar                      "
+name_lstrip = "                  numan                  abubakar                      "
 print(name_lstrip.lstrip())
 print(name_lstrip.rstrip())
 print(name_lstrip.strip())
