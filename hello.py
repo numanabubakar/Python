@@ -30,7 +30,10 @@ print(name_lstrip.strip())
 names: list[str] = ["ALi", "Umar", "Abdullah"]
 print(names)
 print(names[1])
-print(*names) # printing all members
+print(*names)  # using * for printing all members
 
 names.pop()
-print(names)
+print(names[0:2])
+print(names[:2])
+print(names[:2:1])
+
