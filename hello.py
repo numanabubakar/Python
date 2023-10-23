@@ -35,5 +35,13 @@ print(*names)  # using * for printing all members
 names.pop()
 print(names[0:2])
 print(names[:2])
-print(names[:2:1])
 
+print(names[:2:1])
+characters: list[str] = list("ABCDEFGHIJKLMNOPQRSTUVWXYX")
+print(characters)
+# defualt slicing go from left to right
+print(characters[0:2])  # 0= include : index 2-1 = 1
+print(characters[:2])  # not pass any number = all
+print(characters[-26:-24])  # 0= include : index -24-1 = -25
+print(characters[0:2:1])  # 0= include : index 2-1 = 1
+print(characters[0:2:])  # 0= include : index 2-1 = 1
