@@ -24,3 +24,9 @@ name_lstrip = "                  numan abubakar                      "
 print(name_lstrip.lstrip())
 print(name_lstrip.rstrip())
 print(name_lstrip.strip())
+
+#  list (array)
+
+names: list[str] = ["ALi", "Umar", "Abdullah"]
+print(names)
+print(names[1])
